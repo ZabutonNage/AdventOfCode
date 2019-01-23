@@ -1,10 +1,12 @@
+const inputFile = `../_input/04.input`;
+const input = getInput(inputFile);
+
 const crypto = require(`crypto`);
 
-const input = `bgvyzdsv`;
 
-
-const result = findSecretNumber(1);
-console.log(result);
+console.log(
+    findSecretNumber(1)
+);
 
 
 function findSecretNumber(current) {
@@ -19,4 +21,12 @@ function hashWithInput(num) {
     hash.update(input);
     hash.update(num.toString());
     return hash.digest(`hex`);
+}
+
+
+function getInput(inputFile) {
+    const { join } = require(`path`);
+    const { readFileSync } = require(`fs`);
+
+    return readFileSync(join(__dirname, inputFile), `utf8`);
 }
