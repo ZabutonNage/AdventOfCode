@@ -11,7 +11,8 @@
     "purescript-console": "^4.2.0",
     "purescript-effect": "^2.0.1",
     "purescript-node-fs": "^5.0.1",
-    "purescript-stringutils": "^0.0.10"
+    "purescript-stringutils": "^0.0.10",
+    "purescript-argonaut-core": "^5.0.1"
   },
   "devDependencies": {
     "purescript-psci-support": "^4.0.0"
