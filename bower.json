@@ -8,11 +8,11 @@
   ],
   "dependencies": {
     "purescript-prelude": "^4.1.1",
-    "purescript-console": "^4.2.0",
+    "purescript-console": "^4.4.0",
     "purescript-effect": "^2.0.1",
     "purescript-node-fs": "^5.0.1",
     "purescript-stringutils": "^0.0.10",
-    "purescript-argonaut-core": "^5.0.1",
+    "purescript-argonaut-core": "^5.1.0",
     "purescript-monad-loops": "^0.5.0",
     "purescript-sequences": "^2.1.0"
   },
